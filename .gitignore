@@ -1,10 +1,16 @@
 # --- ROS Build Artifacts ---
+.catkin_tools/
 build/
 devel/
-install/
 log/
 *.log
+.rosinstall
+.rosinstall.bak
 .catkin_workspace
+*/.catkin_tools/
+*/build/
+*/devel/
+*/install/
 
 # --- Python ---
 *.pyc
@@ -18,3 +24,7 @@ __pycache__/
 # --- Large/Binary Files (Optional, unless you really need them) ---
 *.bag
 *.pcd
+
+
+
+

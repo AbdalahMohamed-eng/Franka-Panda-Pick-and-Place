@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://table</uri>
+      <name>my_table</name>
+      <pose>0.6 0.0 0 0 0 1.5708</pose> 
+    </include>
+
+    <include>
+      <uri>model://stone</uri>
+      <name>target_stone</name>
+      <pose>0.4 0.0 0.35 0 0 0</pose> 
+    </include>
+
+    <include>
+      <uri>model://blue_stone</uri>
+      <name>stone_blue</name>
+      <pose>0.4 -0.2 0.35 0 0 0</pose> 
+    </include>
+
+    <include>
+      <uri>model://green_stone</uri>
+      <name>stone_green</name>
+      <pose>0.4 0.2 0.35 0 0 0</pose> 
+    </include>
+
+    <include>
+      <uri>model://aws_robomaker_residential_Trash_01</uri>
+      <name>trash_bin</name>
+      <pose>0.5 0.4 0.3 0 0 0</pose> 
+    </include>
+    
+  </world>
+</sdf>
