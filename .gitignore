@@ -1,0 +1,20 @@
+# --- ROS Build Artifacts ---
+build/
+devel/
+install/
+log/
+*.log
+.catkin_workspace
+
+# --- Python ---
+*.pyc
+__pycache__/
+
+# --- VS Code / Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Large/Binary Files (Optional, unless you really need them) ---
+*.bag
+*.pcd
